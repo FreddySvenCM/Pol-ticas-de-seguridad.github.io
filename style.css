@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+.container > * {
+  opacity: 0;
+  transform: translateY(10px); 
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.container > *.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+h1 {
+  color: #007bff;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.introduction {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.introduction .company-name {
+  font-weight: bold;
+  color: #007bff;}
+h2,
+h3 {
+  color: #007bff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+p,
+ul {
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.important {
+  font-weight: bold;
+  color: #dc3545;
+}
+.contact-info {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+.last-updated {
+  margin-top: 20px;
+  color: #777;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  /* background-color: #333;| */
+  color: #000000;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 5px;
+}
